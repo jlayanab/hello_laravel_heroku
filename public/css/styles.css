@@ -10,6 +10,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -34,6 +37,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #1abc9c;
+
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -41,9 +45,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
-  /*--bs-secondary-rgb: 44, 62, 211;*/
-  --bs-secondary-rgb: 4, 180, 211;
+  --bs-primary-rgb: 236, 240, 241;
+  --bs-secondary-rgb: 44 , 62, 80;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -4093,6 +4096,11 @@ textarea.form-control-lg {
   border: 0.125rem solid transparent;
   border-radius: 0.5rem;
   transition: box-shadow 0.15s ease-in-out;
+}
+.logo {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -11444,7 +11452,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 80rem;
 }
 
 @media (min-width: 992px) {
